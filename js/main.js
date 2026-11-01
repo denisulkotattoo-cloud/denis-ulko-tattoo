@@ -1,5 +1,6 @@
 const dict = {
   "en": {
+    "captionTattooMachine": "Black & grey · Tattoo machine",
     "navWork": "Gallery",
     "navProcess": "Process",
     "navAbout": "My Story",
@@ -120,6 +121,7 @@ const dict = {
     "caption117": "Other · Ornamental"
   },
   "es": {
+    "captionTattooMachine": "Negro y gris · Máquina de tatuar",
     "navWork": "Galería",
     "navProcess": "Proceso",
     "navAbout": "Mi historia",
