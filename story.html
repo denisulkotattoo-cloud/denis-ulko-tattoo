@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main" data-i="skip">Skip to content</a>
     <header class="header">
       <div class="header-inner">
         <a class="brand" href="index.html">
@@ -24,7 +25,7 @@
             <span>Tattoo</span>
           </span>
         </a>
-        <nav class="nav">
+        <nav class="nav" id="navigation">
           <a href="index.html#gallery" data-i="navWork">Gallery</a>
           <a href="process.html" data-i="navProcess">Process</a>
           <a href="story.html" class="is-here" data-i="navAbout">My Story</a>
@@ -37,35 +38,35 @@
             <button type="button" data-lang="es">ES</button>
           </div>
           <a class="btn btn-solid btn-book-desktop" data-wa data-i="ctaBook" href="https://wa.me/50664303209" target="_blank" rel="noopener">Book on WhatsApp</a>
-          <button class="menu-toggle" type="button" aria-label="Menu"><span></span></button>
+          <button class="menu-toggle" type="button" aria-label="Open navigation" data-i-aria="menuLabel" aria-expanded="false" aria-controls="navigation"><span></span></button>
         </div>
       </div>
     </header>
 
-    <main>
+    <main id="main">
       <section class="page-hero">
         <div class="wrap">
           <p class="eyebrow" data-i="storyKicker">My Story</p>
-          <h1 data-i="storyH1" data-i-html="1">Biologist first.<br />Tattoo artist by craft.</h1>
-          <p data-i="storyLead">The work on skin is built on years in labs: attention, sterility, and patience.</p>
+          <h1 data-i="storyH1" data-i-html="1">An eye for detail.<br />A personal approach.</h1>
+          <p data-i="storyLead">From biology to tattooing: years of careful observation, a love of portraits, and the patience to bring your idea to life.</p>
         </div>
       </section>
 
       <section>
         <div class="wrap story-layout">
           <div class="prose">
-            <p data-i="storyP1"></p>
-            <p data-i="storyP2"></p>
-            <p data-i="storyP3"></p>
-            <p data-i="storyP4"></p>
-            <p class="pullquote" data-i="about2"></p>
+            <p data-i="storyP1">I am a professional biologist. I spent years working across different fields of biology, including laboratory practice where sterile technique and cross-contamination are not slogans. They are the job.</p>
+            <p data-i="storyP2">I started tattooing in 2014 as an amateur. Friends, family, colleagues. It stayed a serious hobby for a long time: evenings and weekends, learning skin the same way I learned a protocol: slowly, and without skipping steps.</p>
+            <p data-i="storyP3">In 2022 I had to leave Russia. I moved to Costa Rica and turned the craft into the center of my work. Santa Ana is where I sit now.</p>
+            <p data-i="storyP4">I specialize in realism, especially portraits. Watching a face come together on skin is quietly mesmerizing. Other styles are welcome when the idea is clear and the placement makes sense.</p>
+            <p class="pullquote" data-i="about2">Tell me what the piece means to you. We’ll work through the references, placement and size together.</p>
             <p style="margin-top: 28px">
               <a class="btn btn-solid" data-wa data-i="ctaBook" href="https://wa.me/50664303209" target="_blank" rel="noopener">Book on WhatsApp</a>
               <a class="btn" href="process.html" data-i="processLink" style="margin-left: 8px">Process</a>
             </p>
           </div>
           <aside class="portrait">
-            <img src="img/denis.jpg" alt="Denis Ulko" />
+            <img loading="lazy" decoding="async" src="img/denis.jpg" alt="Denis Ulko" />
           </aside>
         </div>
       </section>
